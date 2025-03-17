@@ -14,8 +14,8 @@ print("€$result");
 print("<br>");
 function sendEmail()
 {
-    $to = "Mediacollege"; 
-    $from = "Davy";
+    $to = "Mediacollege@ma.nl"; 
+    $from = "Davy@gmail.com";
     $subject = "Dit is een Onderwerp";
     $message = "Hallo hoe gaat het ?";
 
@@ -23,4 +23,13 @@ function sendEmail()
 }
 
 sendEmail();
+
+
+function generateRandomString($length)
+{
+$length = 10;
+    echo " <br> Length: $length";
+}
+
+generateRandomString(10);
 
