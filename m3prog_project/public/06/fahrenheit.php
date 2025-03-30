@@ -1,6 +1,7 @@
 <?php
-$_GET['celsius'] = 0;
-$_GET['fahrenheit'] = 32;
-$celsius = floatval($input)
+$fahrenheit = 74;
+$celsius = ($fahrenheit - 32) / 1.8;
+
+echo $celsius = floatval($fahrenheit)
 
 ?>
